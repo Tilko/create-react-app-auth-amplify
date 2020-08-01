@@ -1,38 +1,20 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-authcra-dev-125545-authRole",
-            "UnauthRoleArn": "arn:aws:iam::019769595340:role/amplify-authcra-dev-125545-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::019769595340:role/amplify-authcra-dev-125545-authRole",
-            "Region": "eu-west-2",
-            "DeploymentBucketName": "amplify-authcra-dev-125545-deployment",
-            "UnauthRoleName": "amplify-authcra-dev-125545-unauthRole",
-            "StackName": "amplify-authcra-dev-125545",
-            "StackId": "arn:aws:cloudformation:eu-west-2:019769595340:stack/amplify-authcra-dev-125545/8da39160-d3e5-11ea-ba3b-0a6f7b6b7836",
-            "AmplifyAppId": "d2wb7xaui57qza"
-        },
-        "categories": {
-            "auth": {
-                "cognitocf0c6096": {}
-            }
-        }
-    },
-    "devd": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-authcra-devd-103510-authRole",
-            "UnauthRoleArn": "arn:aws:iam::019769595340:role/amplify-authcra-devd-103510-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::019769595340:role/amplify-authcra-devd-103510-authRole",
-            "Region": "eu-west-2",
-            "DeploymentBucketName": "amplify-authcra-devd-103510-deployment",
-            "UnauthRoleName": "amplify-authcra-devd-103510-unauthRole",
-            "StackName": "amplify-authcra-devd-103510",
-            "StackId": "arn:aws:cloudformation:eu-west-2:019769595340:stack/amplify-authcra-devd-103510/adbbd820-d3e2-11ea-ada2-0a967d6d9d80",
-            "AmplifyAppId": "ddb4626d52or3"
-        },
-        "categories": {
-            "auth": {
-                "cognitocf0c6096": {}
-            }
-        }
-    }
+	"devd": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-authcra-devd-103510-authRole",
+			"UnauthRoleArn": "arn:aws:iam::019769595340:role/amplify-authcra-devd-103510-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::019769595340:role/amplify-authcra-devd-103510-authRole",
+			"Region": "eu-west-2",
+			"DeploymentBucketName": "amplify-authcra-devd-103510-deployment",
+			"UnauthRoleName": "amplify-authcra-devd-103510-unauthRole",
+			"StackName": "amplify-authcra-devd-103510",
+			"StackId": "arn:aws:cloudformation:eu-west-2:019769595340:stack/amplify-authcra-devd-103510/adbbd820-d3e2-11ea-ada2-0a967d6d9d80",
+			"AmplifyAppId": "ddb4626d52or3"
+		},
+		"categories": {
+			"auth": {
+				"cognitocf0c6096": {}
+			}
+		}
+	}
 }
