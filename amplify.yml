@@ -38,7 +38,7 @@ test:
         - echo 'b'
     test:
       commands:
-        - 'npx cypress run --record --key e4fdd449-154f-45b1-a2c0-898672f984b3 --reporter mochawesome --reporter-options "reportDir=cypress/report/mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'
+        - 'npx cypress run --record --key=e4fdd449-154f-45b1-a2c0-898672f984b3 --reporter mochawesome --reporter-options "reportDir=cypress/report/mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'
     postTest:
       commands:
         - npx mochawesome-merge --reportDir cypress/report/mochawesome-report > cypress/report/mochawesome.json
