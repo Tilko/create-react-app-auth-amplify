@@ -16,6 +16,7 @@ package-lock.json
 
 # misc
 /examples
+*.mp4
 
 .DS_Store
 .env.local
