@@ -1,7 +1,7 @@
 describe('Authenticator:', function () {
   // Step 1: setup the application state
   beforeEach(function () {
-    cy.visit('http://172.17.0.2:3000');
+    cy.visit('/');//http://172.17.0.2:3000');
   });
 
   describe('Sign In:', () => {

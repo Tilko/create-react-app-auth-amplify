@@ -34,6 +34,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "cypress": "^4.11.0"
+    "cypress": "^4.11.0",
+    "mocha": "^8.1.0",
+    "mochawesome": "^4.1.0",
+    "start-server-and-test": "^1.11.2"
   }
 }
