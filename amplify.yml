@@ -41,4 +41,5 @@ test:
         - 'npx cypress run --record --key=e4fdd449-154f-45b1-a2c0-898672f984b3 --reporter mochawesome --reporter-options "reportDir=cypress/report/mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'
     postTest:
       commands:
-        - npx mochawesome-merge --reportDir cypress/report/mochawesome-report > cypress/report/mochawesome.json
+        #- npx mochawesome-merge --reportDir cypress/report/mochawesome-report > cypress/report/mochawesome.json
+        - npx mochawesome-merge cypress/report/mochawesome-report/mochawesome*.json > cypress/report/mochawesome.json
